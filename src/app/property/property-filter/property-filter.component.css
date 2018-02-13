@@ -1,0 +1,35 @@
+:host {
+    font-size: 14px;
+}
+
+.form-group {
+    padding: 13px 10px 13px 13px;
+    /* border: 1px solid #CFCFCF; */
+    color: #999;
+    outline: none;
+    position: relative;
+    display: inline-flex; 
+    align-items: center;
+}
+
+.form-group.row {
+    width: 100%;
+    display: flex; 
+}
+
+label { 
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+input { 
+    display: inline-flex;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+input[name="address"] {
+    width: 50%;
+}
