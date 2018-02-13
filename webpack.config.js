@@ -142,7 +142,6 @@ module.exports = {
       "./src\\polyfills.ts"
     ],
     "styles": [
-      "./src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css",
       "./node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
       "./src\\styles.css"
     ]
@@ -177,7 +176,6 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css"),
           path.join(process.cwd(), "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"),
           path.join(process.cwd(), "src\\styles.css")
         ],
@@ -203,7 +201,6 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css"),
           path.join(process.cwd(), "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"),
           path.join(process.cwd(), "src\\styles.css")
         ],
@@ -237,7 +234,6 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css"),
           path.join(process.cwd(), "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"),
           path.join(process.cwd(), "src\\styles.css")
         ],
@@ -269,7 +265,6 @@ module.exports = {
       },
       {
         "exclude": [
-          path.join(process.cwd(), "src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css"),
           path.join(process.cwd(), "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"),
           path.join(process.cwd(), "src\\styles.css")
         ],
@@ -302,7 +297,6 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css"),
           path.join(process.cwd(), "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"),
           path.join(process.cwd(), "src\\styles.css")
         ],
@@ -328,7 +322,6 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css"),
           path.join(process.cwd(), "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"),
           path.join(process.cwd(), "src\\styles.css")
         ],
@@ -362,7 +355,6 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css"),
           path.join(process.cwd(), "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"),
           path.join(process.cwd(), "src\\styles.css")
         ],
@@ -394,7 +386,6 @@ module.exports = {
       },
       {
         "include": [
-          path.join(process.cwd(), "src\\assets\\font-awesome-4.7.0\\css\\font-awesome.min.css"),
           path.join(process.cwd(), "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"),
           path.join(process.cwd(), "src\\styles.css")
         ],
