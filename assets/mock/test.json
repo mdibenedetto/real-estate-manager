@@ -1,0 +1,1751 @@
+[{
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/451000-450001-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-02T14:52:31.231Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 450563,
+      "address": "Grange Street, Bridport Place, London N1",
+      "price": 239950,
+      "location": [-0.08598981286789789, 51.53496103373708],
+      "beds": 2,
+      "zipCode": "N1 5JN",
+      "images": [],
+      "description": "2 bedroom ground floor flat for sale in Grange Street,\r\nBridport Place,\r\nLondon N1 £239,950. Marketed by Amhurst Estates, Hackney",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Amhurst Estates, Hackney",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2207001-2206002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T06:38:59.579Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2206777,
+      "address": "Curzon Mews,Wilmslow,Cheshire",
+      "price": 289950,
+      "location": [-2.2389509596968002, 53.320919284934995],
+      "beds": 3,
+      "zipCode": "SK9 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/5k/4412/4412_JWP01626_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom terraced house for sale in Curzon Mews,Wilmslow,Cheshire £289,950. Marketed by Jordan Fishwick, Wilmslow",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Jordan Fishwick, Wilmslow",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2192001-2191002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T07:08:43.665Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2191469,
+      "address": "Cubert",
+      "price": 144950,
+      "location": [-5.116413118643851, 50.37758371867477],
+      "beds": 3,
+      "zipCode": "TR8 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/5k/4974/4974_92010-5274_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom house for sale in Cubert £144,950. Marketed by Stratton Creber, Newquay",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Stratton Creber, Newquay",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2165001-2164002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T08:03:29.298Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2164148,
+      "address": "Cedar Close, North Elmham, DEREHAM",
+      "price": 169000,
+      "location": [0.9427477810404992, 52.74943990466523],
+      "beds": 3,
+      "zipCode": "NR20 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1965/1965_1187001_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/2k/1965/1965_1187001_IMG_01_max_656x437.jpg", "http://media.rightmove.co.uk/dir/2k/1965/1965_1187001_IMG_02_max_656x437.jpg", "http://media.rightmove.co.uk/dir/2k/1965/1965_1187001_IMG_03_max_656x437.jpg", "http://media.rightmove.co.uk/dir/2k/1965/1965_1187001_IMG_04_max_656x437.jpg"],
+      "description": "3 bedroom house for sale in Cedar Close, North Elmham, DEREHAM £169,000. Marketed by William H. Brown, Dereham",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "William H. Brown, Dereham",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2280001-2279002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T04:13:41.420Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2279624,
+      "address": "MOORLAND ROAD,MAGHULL",
+      "price": 149995,
+      "location": [-2.943843155920832, 53.50070832117843],
+      "beds": 3,
+      "zipCode": "L31 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1303/1303_HF643221600_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom semi-detached house for sale in MOORLAND ROAD,MAGHULL £149,995. Marketed by Halifax Estate Agents, Maghull",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Halifax Estate Agents, Maghull",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2324001-2323002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T02:41:49.906Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2323538,
+      "address": "Coleford Road Southmead",
+      "price": 94950,
+      "location": [-2.595097796879989, 51.50194793270608],
+      "beds": 3,
+      "zipCode": "BS10 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/3k/2911/2911_516100626_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/3k/2911/2911_516100626_IMG_01_max_656x437.jpg", "http://media.rightmove.co.uk/dir/3k/2911/2911_516100626_IMG_02_max_656x437.jpg"],
+      "description": "3 bedroom semi-detached house for sale in Coleford Road Southmead £94,950. Marketed by Connells, Filton",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Connells, Filton",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1646001-1645002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T01:39:05.154Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1645714,
+      "address": "NORTHFLEET",
+      "price": 122995,
+      "location": [0.37555267206213583, 51.423637816666485],
+      "beds": 3,
+      "zipCode": "DA12 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/7k/6958/6958_RGP00792_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom terraced house for sale in NORTHFLEET £122,995. Marketed by Robinson Michael & Jackson, Gravesend and Northfleet - Sales",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Robinson Michael & Jackson, Gravesend and Northfleet - Sales",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1674001-1673002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T00:48:12.452Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1673111,
+      "address": "Egmont Road, Sutton,",
+      "price": 119950,
+      "location": [-0.18939753571426277, 51.35243544990794],
+      "beds": 1,
+      "zipCode": "SM2 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/1k/526/526_SUT0041_IMG_06_max_656x437.jpg", "http://media.rightmove.co.uk/dir/1k/526/526_SUT0041_IMG_03_max_656x437.jpg", "http://media.rightmove.co.uk/dir/1k/526/526_SUT0041_IMG_04_max_656x437.jpg", "http://media.rightmove.co.uk/dir/1k/526/526_SUT0041_IMG_05_max_656x437.jpg"],
+      "description": "1 bedroom flat for sale in Egmont Road,\r\nSutton,\r\n £119,950. Marketed by Mann, Sutton",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Mann, Sutton",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1567001-1566002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T04:14:56.647Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1566897,
+      "address": "Abington ,Northampton ,Northamptonshire",
+      "price": 134995,
+      "location": [-0.8712503678411341, 52.24124883138607],
+      "beds": 3,
+      "zipCode": "NN1 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/7k/6789/6789_46976_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6789/6789_46976_IMG_08_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6789/6789_46976_IMG_09_max_656x437.jpg"],
+      "description": "3 bedroom terraced house for sale in Abington  ,Northampton ,Northamptonshire £134,995. Marketed by Merry's Estate Agents, Northampton",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Merry's Estate Agents, Northampton",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1566001-1565002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T04:16:46.390Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1565996,
+      "address": "Grimsargh",
+      "price": 189950,
+      "location": [-2.6299380858180252, 53.80325491971009],
+      "beds": 4,
+      "zipCode": "PR2 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/5k/4950/4950_53510-2031_IMG_00_max_656x437.jpg"],
+      "description": "4 bedroom house for sale in Grimsargh £189,950. Marketed by Entwistle Green, Longridge",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Entwistle Green, Longridge",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1704001-1703002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T23:49:23.498Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1703293,
+      "address": "Cobbs Lane, Hough,",
+      "price": 249950,
+      "location": [-2.426959006363235, 53.05566998657859],
+      "beds": 5,
+      "zipCode": "CW2 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/1k/643/643_CW001801_IMG_01_max_656x437.jpg", "http://media.rightmove.co.uk/dir/1k/643/643_CW001801_IMG_02_max_656x437.jpg", "http://media.rightmove.co.uk/dir/1k/643/643_CW001801_IMG_03_max_656x437.jpg"],
+      "description": "5 bedroom detached house for sale in Cobbs Lane,\r\nHough,\r\n £249,950. Marketed by Entwistle Green, Crewe",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Entwistle Green, Crewe",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1700001-1699002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T23:56:15.949Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1699963,
+      "address": "Bessemer Court, Blakelands, MILTON KEYNES",
+      "price": 121000,
+      "location": [-0.7405354639463073, 52.07296389663099],
+      "beds": 1,
+      "zipCode": "MK14 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1966/1966_1142302_IMG_00_max_656x437.jpg"],
+      "description": "1 bedroom bungalow for sale in Bessemer Court, Blakelands, MILTON KEYNES £121,000. Marketed by Brown & Merry, Newport Pagnell",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "bungalow",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Brown & Merry, Newport Pagnell",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1694001-1693002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T00:08:00.598Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1693820,
+      "address": "8 THE DALES, COTTINGHAM",
+      "price": 185000,
+      "location": [-0.43838813997224413, 53.77946164821092],
+      "beds": 3,
+      "zipCode": "HU16 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1028/1028_HF279874400_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom detached bungalow for sale in 8 THE DALES, COTTINGHAM £185,000. Marketed by Halifax Estate Agents, Cottingham",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "bungalow",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Halifax Estate Agents, Cottingham",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1932001-1931002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T15:50:29.309Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1931489,
+      "address": "Wraysbury ,Middlesex",
+      "price": 339950,
+      "location": [-0.5729801431929391, 51.4541331492174],
+      "beds": 3,
+      "zipCode": "TW19 5JN",
+      "images": [],
+      "description": "3 bedroom detached bungalow for sale in Wraysbury  ,Middlesex £339,950. Marketed by Romans, Staines - Lettings",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "bungalow",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Romans, Staines - Lettings",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1941001-1940002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T15:32:46.348Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1940467,
+      "address": "Wraysbury ,Middlesex",
+      "price": 339950,
+      "location": [-0.5729801431929391, 51.4541331492174],
+      "beds": 3,
+      "zipCode": "TW19 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/5k/4229/4229_64003_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/5k/4229/4229_64003_IMG_01_max_656x437.jpg", "http://media.rightmove.co.uk/dir/5k/4229/4229_64003_IMG_02_max_656x437.jpg", "http://media.rightmove.co.uk/dir/5k/4229/4229_64003_IMG_03_max_656x437.jpg"],
+      "description": "3 bedroom detached bungalow for sale in Wraysbury  ,Middlesex £339,950. Marketed by Romans, Staines - Lettings",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "bungalow",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Romans, Staines - Lettings",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1936001-1935002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T15:42:45.386Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1935401,
+      "address": "Wraysbury ,Middlesex",
+      "price": 339950,
+      "location": [-0.5729801431929391, 51.4541331492174],
+      "beds": 3,
+      "zipCode": "TW19 5JN",
+      "images": [],
+      "description": "3 bedroom detached bungalow for sale in Wraysbury  ,Middlesex £339,950. Marketed by Romans, Staines - Lettings",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "bungalow",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Romans, Staines - Lettings",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2045001-2044002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T12:03:32.772Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2044843,
+      "address": "Cobbs Lane, Hough,",
+      "price": 295000,
+      "location": [-2.426959006363235, 53.05566998657859],
+      "beds": 4,
+      "zipCode": "CW2 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/1k/104/104_NT000407_IMG_02_max_656x437.jpg"],
+      "description": "4 bedroom house for sale in Cobbs Lane,\r\nHough,\r\n £295,000. Marketed by Bridgfords, Nantwich",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Bridgfords, Nantwich",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1873001-1872002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T17:51:02.072Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1872592,
+      "address": "Neswick Street, Stonehouse, Plymouth",
+      "price": 82950,
+      "location": [-4.1537578492077225, 50.37224290777166],
+      "beds": 2,
+      "zipCode": "PL1 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/4k/3476/3476_38845_IMG_00_max_656x437.jpg"],
+      "description": "2 bedroom end of terrace house for sale in Neswick Street, Stonehouse, Plymouth £82,950. Marketed by Fulfords, Drake Circus Office, Plymouth",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Fulfords, Drake Circus Office, Plymouth",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1730001-1729002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T22:38:49.525Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1729646,
+      "address": "Hough",
+      "price": 249950,
+      "location": [-2.426959006363235, 53.05566998657859],
+      "beds": 5,
+      "zipCode": "CW2 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/3k/2393/2393_NA001481_IMG_01_max_656x437.jpg", "http://media.rightmove.co.uk/dir/3k/2393/2393_NA001481_IMG_02_max_656x437.jpg", "http://media.rightmove.co.uk/dir/3k/2393/2393_NA001481_IMG_03_max_656x437.jpg"],
+      "description": "5 bedroom detached house for sale in Hough\r\n £249,950. Marketed by Beresford Executive & Country Homes, Nantwich",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Beresford Executive & Country Homes, Nantwich",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1845001-1844002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T18:47:55.112Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1844812,
+      "address": "SIDCUP",
+      "price": 145995,
+      "location": [0.12597675040077322, 51.417370561968056],
+      "beds": 2,
+      "zipCode": "DA14 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/1k/969/969_HF080629400_IMG_00_max_656x437.jpg"],
+      "description": "2 bedroom terraced house for sale in SIDCUP £145,995. Marketed by Halifax Estate Agents, Sidcup",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Halifax Estate Agents, Sidcup",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1897001-1896002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T17:01:26.069Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1896534,
+      "address": "GRAVESEND",
+      "price": 125000,
+      "location": [0.37555267206213583, 51.423637816666485],
+      "beds": 3,
+      "zipCode": "DA12 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/7k/6958/6958_RGP01073_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom terraced house for sale in GRAVESEND £125,000. Marketed by Robinson Michael & Jackson, Gravesend and Northfleet - Sales",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Robinson Michael & Jackson, Gravesend and Northfleet - Sales",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1895001-1894002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T17:05:40.252Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1894533,
+      "address": "East Point, Emerald Quay, SHOREHAM-BY-SEA",
+      "price": 129950,
+      "location": [-0.26476360361922924, 50.83054562445052],
+      "beds": 2,
+      "zipCode": "BN43 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/3k/2081/2081_1162129_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/3k/2081/2081_1162129_IMG_01_max_656x437.jpg"],
+      "description": "2 bedroom flat for sale in East Point, Emerald Quay, SHOREHAM-BY-SEA £129,950. Marketed by Fox & Sons, Shoreham By Sea",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Fox & Sons, Shoreham By Sea",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2417001-2416002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-29T23:39:41.118Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2416270,
+      "address": "Cam",
+      "price": 129950,
+      "location": [-2.369693173385643, 51.70518032887116],
+      "beds": 2,
+      "zipCode": "GL11 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/4k/3065/3065_112148A_12148_IMG_00_max_656x437.JPG"],
+      "description": "2 bedroom semi-detached house for sale in Cam £129,950. Marketed by Bennett Jones, Dursley",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Bennett Jones, Dursley",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2416001-2415002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-29T23:40:45.936Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2415695,
+      "address": "11 FRANCIS STREET, HALIFAX, W YORKSHIRE",
+      "price": 20000,
+      "location": [-1.875543444484019, 53.722604723851205],
+      "beds": 2,
+      "zipCode": "HX1 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1082/1082_HF877035600_IMG_00_max_656x437.jpg"],
+      "description": "2 bedroom end of terrace house for sale in 11 FRANCIS STREET, HALIFAX, W YORKSHIRE £20,000. Marketed by Halifax Estate Agents, Halifax",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Halifax Estate Agents, Halifax",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2414001-2413002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-29T23:45:36.215Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2413104,
+      "address": "Crofthandy, St.Day",
+      "price": 349950,
+      "location": [-5.1741384745274726, 50.23919436305747],
+      "beds": 4,
+      "zipCode": "TR16 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/4k/3483/3483_49410_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/4k/3483/3483_49410_IMG_01_max_656x437.jpg", "http://media.rightmove.co.uk/dir/4k/3483/3483_49410_IMG_02_max_656x437.jpg", "http://media.rightmove.co.uk/dir/4k/3483/3483_49410_IMG_03_max_656x437.jpg", "http://media.rightmove.co.uk/dir/4k/3483/3483_49410_IMG_04_max_656x437.jpg", "http://media.rightmove.co.uk/dir/4k/3483/3483_49410_IMG_05_max_656x437.jpg", "http://media.rightmove.co.uk/dir/4k/3483/3483_49410_IMG_06_max_656x437.jpg", "http://media.rightmove.co.uk/dir/4k/3483/3483_49410_IMG_07_max_656x437.jpg"],
+      "description": "4 bedroom detached house for sale in Crofthandy, St.Day £349,950. Marketed by Fulfords, Redruth",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Fulfords, Redruth",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2442001-2441002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-29T22:48:09.518Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2441569,
+      "address": "HORSHAM",
+      "price": 159950,
+      "location": [-0.31267996352095706, 51.06084284132494],
+      "beds": 3,
+      "zipCode": "RH13 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1109/1109_HF400354600_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom semi-detached house for sale in HORSHAM £159,950. Marketed by Halifax Estate Agents, Horsham",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Halifax Estate Agents, Horsham",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2431001-2430002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-29T23:10:41.581Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2430610,
+      "address": "38, Eltham Road, West Bridgford",
+      "price": 162500,
+      "location": [-1.1233002326805734, 52.929332029605426],
+      "beds": 2,
+      "zipCode": "NG2 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/9k/8278/8278_111527A_11527_IMG_00_max_656x437.jpg"],
+      "description": "2 bedroom semi-detached house for sale in 38, Eltham Road, West Bridgford £162,500. Marketed by Royston & Lund Estate Agents, West Bridgford",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Royston & Lund Estate Agents, West Bridgford",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2228001-2227002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T05:57:58.691Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2227534,
+      "address": "Chamberlayne Road, Eastleigh",
+      "price": 109950,
+      "location": [-1.3578129584267797, 50.9685650163028],
+      "beds": 1,
+      "zipCode": "SO50 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/7k/6877/6877_ENE265_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE265_IMG_01_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE265_IMG_02_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE265_IMG_03_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE265_IMG_04_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE265_IMG_05_max_656x437.jpg"],
+      "description": "1 bedroom flat for sale in Chamberlayne Road, Eastleigh £109,950. Marketed by Enfields, Eastleigh",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Enfields, Eastleigh",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2228001-2227002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T05:57:58.926Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2227532,
+      "address": "Chamberlayne Road, Eastleigh",
+      "price": 117500,
+      "location": [-1.3578129584267797, 50.9685650163028],
+      "beds": 1,
+      "zipCode": "SO50 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/7k/6877/6877_ENE266_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE266_IMG_01_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE266_IMG_02_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE266_IMG_03_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE266_IMG_04_max_656x437.jpg", "http://media.rightmove.co.uk/dir/7k/6877/6877_ENE266_IMG_05_max_656x437.jpg"],
+      "description": "1 bedroom flat for sale in Chamberlayne Road, Eastleigh £117,500. Marketed by Enfields, Eastleigh",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Enfields, Eastleigh",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2228001-2227002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T05:58:09.613Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2227434,
+      "address": "Hertford Road, Enfield, Middx",
+      "price": 198750,
+      "location": [-0.045516819011421086, 51.66171736748136],
+      "beds": 3,
+      "zipCode": "EN3 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/7k/6551/6551_MA001310_IMG_00_max_656x437.JPG"],
+      "description": "3 bedroom terraced house for sale in Hertford Road, Enfield, Middx £198,750. Marketed by Kings Group, Enfield Highway",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Kings Group, Enfield Highway",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2223001-2222002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T06:07:03.557Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2222895,
+      "address": "Lingmell Road ,Liverpool ,**",
+      "price": 115000,
+      "location": [-2.9093335481278015, 53.43796449979636],
+      "beds": 3,
+      "zipCode": "L12 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/8k/7449/7449_84730_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom semi-detached house for sale in Lingmell Road  ,Liverpool ,** £115,000. Marketed by Whitegates, West Derby",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Whitegates, West Derby",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1735001-1734002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T22:28:40.707Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1734767,
+      "address": "Marlborough Road, Yeovil, Somerset",
+      "price": 99950,
+      "location": [-2.6112279363542443, 50.95038582207067],
+      "beds": 3,
+      "zipCode": "BA21 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/7k/6477/6477_YE000372_IMG_00_max_656x437.JPG"],
+      "description": "3 bedroom terraced house for sale in Marlborough Road, Yeovil, Somerset £99,950. Marketed by Laceys Yeovil Ltd, Yeovil",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Laceys Yeovil Ltd, Yeovil",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/183000-182001-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-02T22:37:39.633Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 182585,
+      "address": "Caterham Hill",
+      "price": 142500,
+      "location": [-0.09988197496538871, 51.294452617656084],
+      "beds": 2,
+      "zipCode": "CR3 5JN",
+      "images": [],
+      "description": "2 bedroom semi-detached house for sale in Caterham Hill £142,500. Marketed by Bairstow Eves, Caterham",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Bairstow Eves, Caterham",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1793001-1792002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T20:33:33.322Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1792972,
+      "address": "Tunbridge Wells, Kent",
+      "price": 111950,
+      "location": [0.2780277303687821, 51.12519663731666],
+      "beds": 1,
+      "zipCode": "TN2 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/3k/2231/2231_14228190_IMG_00_max_656x437.jpg"],
+      "description": "1 bedroom terraced house for sale in Tunbridge Wells, Kent £111,950. Marketed by Ward & Partners, Tunbridge Wells",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Ward & Partners, Tunbridge Wells",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1791001-1790002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T20:38:55.875Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1790051,
+      "address": "Southgate",
+      "price": 149950,
+      "location": [-0.14271515368519008, 51.63263123323325],
+      "beds": 2,
+      "zipCode": "N14 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/6k/5921/5921_ENF0000390_IMG_00_max_656x437.JPG"],
+      "description": "2 bedroom flat for sale in Southgate £149,950. Marketed by Atkinsons Residential, Enfield - Sales",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Atkinsons Residential, Enfield - Sales",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1723001-1722002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T22:52:13.357Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1722653,
+      "address": "Morston Close, TADWORTH, TADWORTH",
+      "price": 212500,
+      "location": [-0.2379885792841857, 51.30245792154006],
+      "beds": 3,
+      "zipCode": "KT20 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1901/1901_1144794_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom house for sale in Morston Close, TADWORTH, TADWORTH £212,500. Marketed by Barnard Marcus, Epsom",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Barnard Marcus, Epsom",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1768001-1767002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T21:23:31.013Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1767978,
+      "address": "Witney, Oxon",
+      "price": 143000,
+      "location": [-1.5052254090019497, 51.78060618571224],
+      "beds": 2,
+      "zipCode": "OX28 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/6k/5086/5086_18710-5440_IMG_00_max_656x437.jpg"],
+      "description": "2 bedroom house for sale in Witney, Oxon £143,000. Marketed by Buckell & Ballard, Witney",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Buckell & Ballard, Witney",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1769001-1768002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T21:22:20.284Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1768543,
+      "address": "GRAVESEND",
+      "price": 135995,
+      "location": [0.37555267206213583, 51.423637816666485],
+      "beds": 3,
+      "zipCode": "DA12 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/7k/6958/6958_RGP00997_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom terraced house for sale in GRAVESEND £135,995. Marketed by Robinson Michael & Jackson, Gravesend and Northfleet - Sales",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Robinson Michael & Jackson, Gravesend and Northfleet - Sales",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1530001-1529002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T05:26:55.558Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1529405,
+      "address": "Ffordd Nant, Kinmel Bay,",
+      "price": 180000,
+      "location": [-3.5083495987844766, 53.30218307669375],
+      "beds": 3,
+      "zipCode": "LL18 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/1k/661/661_RL008427_IMG_01_max_656x437.jpg"],
+      "description": "3 bedroom detached bungalow for sale in Ffordd Nant,\r\nKinmel Bay,\r\n £180,000. Marketed by Beresford Adams, Rhyl",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "bungalow",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Beresford Adams, Rhyl",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1595001-1594002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T03:18:17.470Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1594900,
+      "address": "Gammons Lane, North Watford, Herts",
+      "price": 224950,
+      "location": [-0.41213810657424677, 51.67992588557486],
+      "beds": 3,
+      "zipCode": "WD24 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/6k/5954/5954_4255A_1693_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom house for sale in Gammons Lane, North Watford, Herts £224,950. Marketed by Claytons Estate Agents, Garston",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Claytons Estate Agents, Garston",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1538001-1537002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T05:11:53.614Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1537686,
+      "address": "Lime Grove, Sutton Coldfield",
+      "price": 129950,
+      "location": [-1.8307058907348681, 52.536813619920245],
+      "beds": 3,
+      "zipCode": "B73 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/1k/44/44_wgr030083_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom house for sale in Lime Grove, Sutton Coldfield £129,950. Marketed by Dixons Countrywide, Wylde Green",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Dixons Countrywide, Wylde Green",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1913001-1912002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T16:28:45.278Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1912609,
+      "address": "Austin Road, London, SW11",
+      "price": 205000,
+      "location": [-0.15565125137915709, 51.4738489547773],
+      "beds": 2,
+      "zipCode": "SW11 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/1k/667/667_bat030292_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/1k/667/667_bat030292_IMG_01_max_656x437.jpg"],
+      "description": "2 bedroom flat for sale in Austin Road, London, SW11 £205,000. Marketed by John D Wood & Co, Battersea",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "John D Wood & Co, Battersea",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2004001-2003002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T13:24:26.636Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2003998,
+      "address": "Greenland Mews, Trundleys Road, Deptford, SE8 5JN",
+      "price": 299500,
+      "location": [-0.04311861095897317, 51.485603515403206],
+      "beds": 3,
+      "zipCode": "SE8 5JN",
+      "images": [],
+      "description": "3 bedroom flat for sale in Greenland Mews, Trundleys Road, Deptford, SE8 5JN £299,500. Marketed by Alex Neil Estate Agents, South East London - Lettings",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Alex Neil Estate Agents, South East London - Lettings",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1979001-1978002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T14:15:02.974Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1978942,
+      "address": "PINELODGE",
+      "price": 84950,
+      "location": [0.5992923460827334, 50.86476823461804],
+      "beds": 2,
+      "zipCode": "TN35 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1094/1094_HF471224500_IMG_00_max_656x437.jpg"],
+      "description": "2 bedroom ground floor flat for sale in PINELODGE £84,950. Marketed by Halifax Estate Agents, Hastings - Wellington Place",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Halifax Estate Agents, Hastings - Wellington Place",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/2371001-2370002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-09-30T01:06:43.616Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 2370997,
+      "address": "Caversham, Caversham",
+      "price": 199950,
+      "location": [-0.958101669079587, 51.47401363823729],
+      "beds": 1,
+      "zipCode": "RG4 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/9k/8180/8180_39177_873_IMG_00_max_656x437.jpg", "http://media.rightmove.co.uk/dir/9k/8180/8180_39177_873_IMG_01_max_656x437.jpg"],
+      "description": "1 bedroom semi-detached house for sale in Caversham, Caversham £199,950. Marketed by Whiteknights Estate Agents, Caversham",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Whiteknights Estate Agents, Caversham",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1124001-1123002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T18:26:34.311Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1123197,
+      "address": "Herne Bay, Kent",
+      "price": 69995,
+      "location": [1.1222365948003024, 51.37175484827984],
+      "beds": 1,
+      "zipCode": "CT6 5JN",
+      "images": [],
+      "description": "1 bedroom flat for sale in Herne Bay, Kent £69,995. Marketed by Ward & Partners, Herne Bay",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Ward & Partners, Herne Bay",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1130001-1129002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T18:14:54.627Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1129486,
+      "address": "Herne Bay, Kent",
+      "price": 66995,
+      "location": [1.1222365948003024, 51.37175484827984],
+      "beds": 1,
+      "zipCode": "CT6 5JN",
+      "images": [],
+      "description": "1 bedroom flat for sale in Herne Bay, Kent £66,995. Marketed by Ward & Partners, Herne Bay",
+      "propertyInfo": {
+        "metaType": "apartment",
+        "type": "flat",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Ward & Partners, Herne Bay",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1221001-1220002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T15:17:40.579Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1220946,
+      "address": "Offerton, Stockport, Cheshire",
+      "price": 94950,
+      "location": [-2.1082248453404255, 53.39113096305853],
+      "beds": 3,
+      "zipCode": "SK2 5JN",
+      "images": [],
+      "description": "3 bedroom house for sale in Offerton, Stockport, Cheshire £94,950. Marketed by Beresford Adams, Marple Bridge",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Beresford Adams, Marple Bridge",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1072001-1071002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T20:05:43.124Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1071226,
+      "address": "Kings Road, Woking",
+      "price": 169950,
+      "location": [-0.5451571590104376, 51.32412260416489],
+      "beds": 2,
+      "zipCode": "GU21 5JN",
+      "images": [],
+      "description": "2 bedroom end of terrace house for sale in Kings Road,\r\nWoking £169,950. Marketed by Carson & Co, Woking",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "unknown",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Carson & Co, Woking",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  },
+  {
+    "success": true,
+    "rawSource": "rightmove",
+    "s3file": "scraped-html-pkg/1272001-1271002-rightmove.html.json.gzip",
+    "scrapedAt": "2017-10-01T13:40:28.258Z",
+    "processedAt": "2017-11-12",
+    "property": {
+      "id": 1271677,
+      "address": "POLEGATE BORDERS",
+      "price": 189950,
+      "location": [0.2406491885656298, 50.8187843050877],
+      "beds": 3,
+      "zipCode": "BN26 5JN",
+      "images": ["http://media.rightmove.co.uk/dir/2k/1151/1151_HF044535300_IMG_00_max_656x437.jpg"],
+      "description": "3 bedroom semi-detached house for sale in POLEGATE BORDERS £189,950. Marketed by Halifax Estate Agents, Polegate",
+      "propertyInfo": {
+        "metaType": "house",
+        "type": "house",
+        "subType": "detached",
+        "availability": "forSale"
+      },
+      "source": "rightmove",
+      "estateAgent": "Halifax Estate Agents, Polegate",
+      "isLive": false
+    },
+    "errors": {
+      "error0": false,
+      "error1": false,
+      "error2": false,
+      "error3": false,
+      "error4": false,
+      "error5": true,
+      "error6": true
+    }
+  }
+]
