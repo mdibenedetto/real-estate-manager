@@ -1,6 +1,6 @@
 webpackJsonp(["main"],{
 
-/***/ "./src/$$_lazy_route_resource lazy recursive":
+/***/ "../../../../../src/$$_lazy_route_resource lazy recursive":
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -13,19 +13,19 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+webpackEmptyAsyncContext.id = "../../../../../src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "./src/app/app-routing.module.ts":
+/***/ "../../../../../src/app/app-routing.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__page_not_found_page_not_found_component__ = __webpack_require__("./src/app/page-not-found/page-not-found.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("../../../common/esm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__page_not_found_page_not_found_component__ = __webpack_require__("../../../../../src/app/page-not-found/page-not-found.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -65,10 +65,10 @@ var AppRoutingModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/app.component.css":
+/***/ "../../../../../src/app/app.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -83,19 +83,19 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ "./src/app/app.component.html":
+/***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-12\">\n            <router-outlet></router-outlet>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
-/***/ "./src/app/app.component.ts":
+/***/ "../../../../../src/app/app.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -109,8 +109,8 @@ var AppComponent = /** @class */ (function () {
     AppComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
             selector: 'app-root',
-            template: __webpack_require__("./src/app/app.component.html"),
-            styles: [__webpack_require__("./src/app/app.component.css")]
+            template: __webpack_require__("../../../../../src/app/app.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/app.component.css")]
         })
     ], AppComponent);
     return AppComponent;
@@ -120,17 +120,17 @@ var AppComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/app.module.ts":
+/***/ "../../../../../src/app/app.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_routing_module__ = __webpack_require__("./src/app/app-routing.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__property_property_module__ = __webpack_require__("./src/app/property/property.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("../../../platform-browser/esm5/platform-browser.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("../../../forms/esm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__property_property_module__ = __webpack_require__("../../../../../src/app/property/property.module.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -157,7 +157,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_5__property_property_module__["a" /* PropertyModule */],
                 __WEBPACK_IMPORTED_MODULE_4__app_routing_module__["a" /* AppRoutingModule */]
             ],
-            providers: [],
+            //  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
         })
     ], AppModule);
@@ -168,10 +168,10 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/page-not-found/page-not-found.component.css":
+/***/ "../../../../../src/app/page-not-found/page-not-found.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -186,19 +186,19 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ "./src/app/page-not-found/page-not-found.component.html":
+/***/ "../../../../../src/app/page-not-found/page-not-found.component.html":
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n    The page you are looking for does not exist\n</p>\n"
 
 /***/ }),
 
-/***/ "./src/app/page-not-found/page-not-found.component.ts":
+/***/ "../../../../../src/app/page-not-found/page-not-found.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PageNotFoundComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -217,8 +217,8 @@ var PageNotFoundComponent = /** @class */ (function () {
     PageNotFoundComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
             selector: 'page-not-found',
-            template: __webpack_require__("./src/app/page-not-found/page-not-found.component.html"),
-            styles: [__webpack_require__("./src/app/page-not-found/page-not-found.component.css")]
+            template: __webpack_require__("../../../../../src/app/page-not-found/page-not-found.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/page-not-found/page-not-found.component.css")]
         }),
         __metadata("design:paramtypes", [])
     ], PageNotFoundComponent);
@@ -229,10 +229,10 @@ var PageNotFoundComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/property/property-detail/property-detail.component.css":
+/***/ "../../../../../src/app/property/property-detail/property-detail.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -247,20 +247,20 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ "./src/app/property/property-detail/property-detail.component.html":
+/***/ "../../../../../src/app/property/property-detail/property-detail.component.html":
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"card-header mb-2\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"sm\">\n                <a class=\"btn btn-secondary\" queryParamsHandling=\"preserve\" [routerLink]=\"['/search']\">\n                <i class=\"fa fa-chevron-left\"></i> Back\n              </a>\n            </div>\n            <div class=\"sm ml-2\">\n                <h4 class=\"card-title\">Property details</h4>\n            </div>\n        </div>\n    </div>\n</div>\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"card-block col-md-6 pl-0\">\n            <div class=\"card mb-2\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Address</h5>\n                    <p class=\"card-text\">{{property.address}}</p>\n                    <p class=\"card-text\">{{property.zipCode}}</p>\n                </div>\n            </div>\n\n            <div class=\"card container mb-2\">\n                <div class=\"row\">\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\">Beds</h5>\n                        <p class=\"card-text\">{{property.beds}}</p>\n                    </div>\n\n                    <div class=\"card-body\">\n                        <h5 class=\"card-title\">Price</h5>\n                        <p class=\"card-text\">£{{property.price}}</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Estate Agent</h5>\n                    <p class=\"card-text\">{{property.estateAgent}}</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"card-block col-md-6 border rounded\">\n            <div id=\"slider\">\n                <figure>\n                    <img class=\"card-img-center\" *ngFor=\"let img of property.images\" [src]=\"img\" alt=\"Card image cap\">\n                </figure>\n                <div class=\"card-body\">\n                    <h5 class=\"card-text font-weight-bold text-danger\"\n                     *ngIf=\"property.images.length==0\">This property does not have images available</h5>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"card mt-2\">\n    <div class=\"card-body\">\n        <h5 class=\"card-title\">Description</h5>\n        <p class=\"card-text\">{{property.description}}</p>\n    </div>\n</div>\n\n<div class=\"card mt-2\">\n    <div class=\"card-body\">\n        <h5 class=\"card-title\">Description</h5>\n        <agm-map [latitude]=\"latitude\" [longitude]=\"longitude\" [zoom]=\"15\">\n            <agm-marker [latitude]=\"latitude\" [longitude]=\"longitude\"></agm-marker>\n        </agm-map>\n    </div>\n</div>\n\n<div class=\"card-footer\">\n    <a class=\"btn btn-secondary\" queryParamsHandling=\"preserve\" [routerLink]=\"['/search']\">\n            <i class=\"fa fa-chevron-left\"></i> Back\n          </a>\n</div>\n<!-- class=\"card-link\" -->\n"
 
 /***/ }),
 
-/***/ "./src/app/property/property-detail/property-detail.component.ts":
+/***/ "../../../../../src/app/property/property-detail/property-detail.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyDetailComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/esm5/router.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -288,8 +288,8 @@ var PropertyDetailComponent = /** @class */ (function () {
     PropertyDetailComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
             selector: 'app-property-detail',
-            template: __webpack_require__("./src/app/property/property-detail/property-detail.component.html"),
-            styles: [__webpack_require__("./src/app/property/property-detail/property-detail.component.css")]
+            template: __webpack_require__("../../../../../src/app/property/property-detail/property-detail.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/property/property-detail/property-detail.component.css")]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]])
     ], PropertyDetailComponent);
@@ -300,20 +300,20 @@ var PropertyDetailComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/property/property-filter/property-filter.component.html":
+/***/ "../../../../../src/app/property/property-filter/property-filter.component.html":
 /***/ (function(module, exports) {
 
 module.exports = "<form>\n    <div class=\"form-group\">\n        <label>Address</label>\n        <input class=\"form-control\" type=\"text\" name=\"address\" [(ngModel)]=\"filter.address\"\n        [ngClass]=\"{'border-info':filter.address}\">\n    </div>\n    <div>\n        <div class=\"row\">\n            <div class=\"form-group col-4\">\n                <label>Zipcode</label>\n                <input class=\"form-control\" type=\"text\" name=\"zipCode\" [(ngModel)]=\"filter.zipCode\"\n                [ngClass]=\"{'border-info':filter.zipCode}\">\n            </div>\n            <div class=\"form-group col-4\">\n                <label>Beds (>={{filter.beds}}) </label>\n                <input class=\"form-control text-right\" type=\"number\" name=\"beds\" [(ngModel)]=\"filter.beds\"\n                [ngClass]=\"{'border-info':filter.beds>0}\">\n            </div>\n            <div class=\"form-group col-4\">\n                <label>Price (>={{filter.price}})</label>\n                <input class=\"form-control text-right\" type=\"number\" name=\"price\" [(ngModel)]=\"filter.price\"\n                [ngClass]=\"{'border-info':filter.price>0}\">\n            </div>\n        </div>\n    </div>\n\n</form>\n"
 
 /***/ }),
 
-/***/ "./src/app/property/property-filter/property-filter.component.ts":
+/***/ "../../../../../src/app/property/property-filter/property-filter.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyFilterComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__service_property_filter_service__ = __webpack_require__("./src/app/property/service/property-filter.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__service_property_filter_service__ = __webpack_require__("../../../../../src/app/property/service/property-filter.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -336,7 +336,7 @@ var PropertyFilterComponent = /** @class */ (function () {
     PropertyFilterComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
             selector: 'property-filter',
-            template: __webpack_require__("./src/app/property/property-filter/property-filter.component.html"),
+            template: __webpack_require__("../../../../../src/app/property/property-filter/property-filter.component.html"),
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__service_property_filter_service__["a" /* PropertyFilterService */]])
     ], PropertyFilterComponent);
@@ -347,10 +347,10 @@ var PropertyFilterComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/property/property-search/property-search.component.css":
+/***/ "../../../../../src/app/property/property-search/property-search.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
@@ -365,21 +365,21 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ "./src/app/property/property-search/property-search.component.html":
+/***/ "../../../../../src/app/property/property-search/property-search.component.html":
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"card card-default\">\n    <div class=\"card-header\">\n        <div class=\"container\">\n            <div class=\"form-inline\">\n                <div class=\"sm mr-2\">\n                    <button (click)=\"search()\" class=\"btn btn-success\">Search</button>\n                </div>\n                <div class=\"sm mr-2\">\n                    <button (click)=\"showFilter=!showFilter\" class=\"btn\" [ngClass]=\"{'btn-danger':hasFilter(),'btn-success':!hasFilter()}\">\n                      Show filter\n                    </button>\n                </div>\n                <div class=\"sm\">\n                    {{totalsMessage}}\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"card-block  mt-2\">\n        <div *ngIf=\"showFilter\" class=\"card-block container\">\n            <property-filter></property-filter>\n        </div>\n        <div class=\"container\">\n            <div class=\"table\">\n                <div class=\"row header\">\n                    <div class=\"cell\">\n                        Address\n                    </div>\n                    <div class=\"cell\">\n                        Zipcode\n                    </div>\n                    <div class=\"cell text-right\">\n                        Beds\n                    </div>\n                    <div class=\"cell text-right\">\n                        Price &pound;\n                    </div>\n                    <div class=\"cell\">\n                        Type\n                    </div>\n                    <div class=\"cell\">\n                        Availability\n                    </div>\n                </div>\n\n                <div class=\"row\" *ngFor=\"let prop of properties\">\n                    <div class=\"cell\" data-title=\"Address\">\n                        <a [routerLink]=\"['/', prop.id, 'detail']\">{{prop.address}}</a>\n                    </div>\n                    <div class=\"cell\" data-title=\"Zipcode\">\n                        {{prop.zipCode}}\n                    </div>\n                    <div class=\"cell text-right\" data-title=\"Beds\">\n                        {{prop.beds}}\n                    </div>\n                    <div class=\"cell text-right\" data-title=\"Price\">\n                        {{prop.price}} &pound;\n                    </div>\n                    <div class=\"cell\" data-title=\"Type\">\n                        {{prop.propertyInfo.metaType}}\n                    </div>\n                    <div class=\"cell\" data-title=\"Availability\">\n                        {{prop.propertyInfo.availability}}\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n    <div class=\"card-footer\">{{totalsMessage}}</div>\n</div>\n"
 
 /***/ }),
 
-/***/ "./src/app/property/property-search/property-search.component.ts":
+/***/ "../../../../../src/app/property/property-search/property-search.component.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertySearchComponent; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__service_property_data_service__ = __webpack_require__("./src/app/property/service/property-data.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__service_property_filter_service__ = __webpack_require__("./src/app/property/service/property-filter.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__service_property_data_service__ = __webpack_require__("../../../../../src/app/property/service/property-data.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__service_property_filter_service__ = __webpack_require__("../../../../../src/app/property/service/property-filter.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -423,8 +423,8 @@ var PropertySearchComponent = /** @class */ (function () {
     PropertySearchComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
             selector: 'property-search',
-            template: __webpack_require__("./src/app/property/property-search/property-search.component.html"),
-            styles: [__webpack_require__("./src/app/property/property-search/property-search.component.css")]
+            template: __webpack_require__("../../../../../src/app/property/property-search/property-search.component.html"),
+            styles: [__webpack_require__("../../../../../src/app/property/property-search/property-search.component.css")]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__service_property_data_service__["a" /* PropertyDataService */],
             __WEBPACK_IMPORTED_MODULE_2__service_property_filter_service__["a" /* PropertyFilterService */]])
@@ -436,23 +436,23 @@ var PropertySearchComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/property/property.module.ts":
+/***/ "../../../../../src/app/property/property.module.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/esm5/common.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__agm_core__ = __webpack_require__("./node_modules/@agm/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__property_search_property_search_component__ = __webpack_require__("./src/app/property/property-search/property-search.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__property_filter_property_filter_component__ = __webpack_require__("./src/app/property/property-filter/property-filter.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__service_property_data_service__ = __webpack_require__("./src/app/property/service/property-data.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__property_detail_property_detail_component__ = __webpack_require__("./src/app/property/property-detail/property-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__service_property_filter_service__ = __webpack_require__("./src/app/property/service/property-filter.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__service_property_resolver_service__ = __webpack_require__("./src/app/property/service/property-resolver.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("../../../common/esm5/common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__("../../../router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__agm_core__ = __webpack_require__("../../../../@agm/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__property_search_property_search_component__ = __webpack_require__("../../../../../src/app/property/property-search/property-search.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__property_filter_property_filter_component__ = __webpack_require__("../../../../../src/app/property/property-filter/property-filter.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__service_property_data_service__ = __webpack_require__("../../../../../src/app/property/service/property-data.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__property_detail_property_detail_component__ = __webpack_require__("../../../../../src/app/property/property-detail/property-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__("../../../forms/esm5/forms.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__service_property_filter_service__ = __webpack_require__("../../../../../src/app/property/service/property-filter.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__service_property_resolver_service__ = __webpack_require__("../../../../../src/app/property/service/property-resolver.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -514,16 +514,16 @@ var PropertyModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/property/service/property-data.service.ts":
+/***/ "../../../../../src/app/property/service/property-data.service.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyDataService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__("./node_modules/@angular/common/esm5/http.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_mergeMap__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/mergeMap.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_filter__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/filter.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_do__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/do.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common_http__ = __webpack_require__("../../../common/esm5/http.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_mergeMap__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/mergeMap.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_filter__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/filter.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_do__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/do.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -592,12 +592,12 @@ var PropertyDataService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/property/service/property-filter.service.ts":
+/***/ "../../../../../src/app/property/service/property-filter.service.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyFilterService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -630,14 +630,14 @@ var PropertyFilterService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/property/service/property-resolver.service.ts":
+/***/ "../../../../../src/app/property/service/property-resolver.service.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PropertyResolverService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__("./node_modules/rxjs/_esm5/add/operator/map.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__property_data_service__ = __webpack_require__("./src/app/property/service/property-data.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/_esm5/add/operator/map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__property_data_service__ = __webpack_require__("../../../../../src/app/property/service/property-data.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -670,7 +670,7 @@ var PropertyResolverService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/environments/environment.ts":
+/***/ "../../../../../src/environments/environment.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -686,15 +686,15 @@ var environment = {
 
 /***/ }),
 
-/***/ "./src/main.ts":
+/***/ "../../../../../src/main.ts":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("./node_modules/@angular/platform-browser-dynamic/esm5/platform-browser-dynamic.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__("./src/app/app.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("../../../platform-browser-dynamic/esm5/platform-browser-dynamic.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__("../../../../../src/app/app.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__("../../../../../src/environments/environment.ts");
 
 
 
@@ -711,7 +711,7 @@ Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* pl
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./src/main.ts");
+module.exports = __webpack_require__("../../../../../src/main.ts");
 
 
 /***/ })
