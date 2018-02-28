@@ -37,7 +37,7 @@ export class PropertySearchComponent implements OnInit {
                         `${this.properties.length} new properties in London`;
                 },
                 error => {
-                    console.error(`Error Server: ${error.error.error.message}`);
+                    console.error(`Error Server: ${error.message}`);
                 });
     }
 
