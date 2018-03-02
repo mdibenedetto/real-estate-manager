@@ -14,8 +14,6 @@ let hashModule = [];
      hashModule.push(HashLocationStrategyModule);
  }
 
-
-
  @NgModule({
      declarations: [
          AppComponent
