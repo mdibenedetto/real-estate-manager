@@ -1,17 +1,17 @@
  import { BrowserModule } from '@angular/platform-browser';
  import { NgModule } from '@angular/core';
  import { FormsModule } from '@angular/forms';
- import { AppComponent } from './app.component';
+ import { environment } from '../environments/environment';
+ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
+ import { AppComponent } from './app.component';
  import { AppRoutingModule } from './app-routing.module';
  import { PropertyModule } from './property/property.module';
- import { HashLocationStrategyModule } from './hash-location-strategy.module';
- import { environment } from '../environments/environment';
 
-
-let hashModule = [];
- if (environment['useHash']) {
-     hashModule.push(HashLocationStrategyModule);
+ let provideLocationStrategy = [{ provide: LocationStrategy, useClass: HashLocationStrategy }];
+ if (!environment['useHash']) {
+     console.log('Use hash strategy!')
+     provideLocationStrategy =[];
  }
 
  @NgModule({
@@ -22,11 +22,10 @@ let hashModule = [];
          BrowserModule,
          FormsModule,
          PropertyModule,
-         AppRoutingModule,
-         ...hashModule
+         AppRoutingModule
      ],
      providers: [
-
+        ...provideLocationStrategy
      ],
      bootstrap: [AppComponent]
  })

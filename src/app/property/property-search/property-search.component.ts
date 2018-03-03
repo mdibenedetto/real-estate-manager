@@ -33,7 +33,7 @@ export class PropertySearchComponent implements OnInit {
             .subscribe(res => {
                     this.properties = res.map(x => x.property);
                     this.totalsMessage = topRow === 0 ?
-                        `${this.properties.length} total properties found` :
+                        `${this.properties.length} total properties found!` :
                         `${this.properties.length} new properties in London`;
                 },
                 error => {
