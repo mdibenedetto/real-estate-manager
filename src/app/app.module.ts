@@ -7,6 +7,8 @@
  import { AppComponent } from './app.component';
  import { AppRoutingModule } from './app-routing.module';
  import { PropertyModule } from './property/property.module';
+import { BaseUrlInterceptor } from './interceptors/base-url.interceptor';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
 
  let provideLocationStrategy = [{ provide: LocationStrategy, useClass: HashLocationStrategy }];
  if (!environment['useHash']) {
@@ -25,6 +27,7 @@
          AppRoutingModule
      ],
      providers: [
+        { provide: HTTP_INTERCEPTORS, useClass: BaseUrlInterceptor, multi: true },
         ...provideLocationStrategy
      ],
      bootstrap: [AppComponent]

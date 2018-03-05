@@ -10,7 +10,7 @@ import { Property, RootObject } from '../property';
 
 @Injectable()
 export class PropertyDataService {
-    URL = 'assets/mock/data.json';
+    URL = '/data/get';
 
     constructor(private http: HttpClient) {}
 

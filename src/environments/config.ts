@@ -1,0 +1,1 @@
+export const URL = 'assets/mock/data.json';
