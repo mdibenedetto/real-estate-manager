@@ -1,4 +1,5 @@
-[{
+[
+  {
     "success": true,
     "rawSource": "rightmove",
     "s3file": "scraped-html-pkg/451000-450001-rightmove.html.json.gzip",
