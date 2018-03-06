@@ -15,6 +15,7 @@
         "gh-install": "npm i -g gh-pages",
         "gh-build": "ng build --output-path=dist/gh-deploy --env=ghp --prod --base-href \"https://michele2014.github.io/real-estate-manager/\"",
         "gh-deploy": "gh-pages -d dist/gh-deploy",
+        "gh-b-d":"npm run gh-build && npm run gh-deploy",
         "util-ncu-install-tool": "npm i -g npm-check-updates",
         "util-ncu-install-latest": "ncu -u && npm install",
         "util-package-lock-false": "npm config set package-lock false",
