@@ -7,14 +7,17 @@
  import { AppComponent } from './app.component';
  import { AppRoutingModule } from './app-routing.module';
  import { PropertyModule } from './property/property.module';
-import { BaseUrlInterceptor } from './interceptors/base-url.interceptor';
+import { BaseUrlInterceptor } from './common/interceptors/base-url.interceptor';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { MockDataService } from './common/mock-services/mock-data-service';
 
  let provideLocationStrategy = [{ provide: LocationStrategy, useClass: HashLocationStrategy }];
  if (!environment['useHash']) {
      console.log('Use hash strategy!')
      provideLocationStrategy =[];
  }
+ console.log(`it is running in environment "${ environment.envName}"`)
 
  @NgModule({
      declarations: [
@@ -24,7 +27,9 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
          BrowserModule,
          FormsModule,
          PropertyModule,
-         AppRoutingModule
+         AppRoutingModule,
+         environment.production ? [] :
+         HttpClientInMemoryWebApiModule.forRoot(MockDataService),
      ],
      providers: [
         { provide: HTTP_INTERCEPTORS, useClass: BaseUrlInterceptor, multi: true },

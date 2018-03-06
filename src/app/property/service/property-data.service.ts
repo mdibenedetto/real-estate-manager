@@ -9,13 +9,12 @@ import 'rxjs/add/operator/do';
 import { Property, RootObject } from '../property';
 
 @Injectable()
-export class PropertyDataService {
-    URL = '/data/get';
+export class PropertyDataService { 
 
     constructor(private http: HttpClient) {}
 
     getDatas(topRow: number = 0, filter: Property = null): Observable < RootObject[] > {
-        const getDatas$ = this.http.get < RootObject[] > (this.URL);
+        const getDatas$ = this.http.get<any> ('/properties');
         let propsFiltered = getDatas$;
 
         if (topRow > 0) {
