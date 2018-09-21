@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
+import { Observable } from 'rxjs';
+import { map } from "rxjs/operators";
+
 
 import { Property } from '../property';
 import { PropertyDataService } from './property-data.service';
@@ -14,6 +15,6 @@ export class PropertyResolverService implements Resolve < Property > {
     resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable < Property > {
         const id = route.params['id'];
         return this.propertyDataService.findProperty(+id)
-            .map(x => x.property);
+            .pipe(map(x => x.property));
     }
 }

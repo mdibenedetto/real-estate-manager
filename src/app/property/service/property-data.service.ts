@@ -1,27 +1,27 @@
 import { Injectable } from '@angular/core';
 import { Response } from '@angular/http';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/mergeMap';
-import 'rxjs/add/operator/filter';
-import 'rxjs/add/operator/do';
+import { Observable } from 'rxjs';
+import { map, mergeMap } from "rxjs/operators";
+
+
 
 import { Property, RootObject } from '../property';
 
 @Injectable()
-export class PropertyDataService { 
+export class PropertyDataService {
 
     constructor(private http: HttpClient) {}
 
     getDatas(topRow: number = 0, filter: Property = null): Observable < RootObject[] > {
-        const getDatas$ = this.http.get<any> ('/properties');
+        const getDatas$ = this.http.get <  RootObject[] > ('/properties');
         let propsFiltered = getDatas$;
 
         if (topRow > 0) {
-            propsFiltered = getDatas$
-                .map(array => {
+            propsFiltered = getDatas$.pipe(
+                map((array: RootObject[]) => {
                     return array.slice(0, topRow);
-                });
+                }));
         }
 
         if (filter && Object.keys(filter).length > 0) {
@@ -29,15 +29,19 @@ export class PropertyDataService {
 
             const filterString = keyProperty => {
                 if (filter[keyProperty]) {
-                    propsFiltered = propsFiltered.map(props =>
-                        props.filter(x => x.property[keyProperty].search(new RegExp(filter[keyProperty], 'i')) > -1)
+                    propsFiltered = propsFiltered.pipe(
+                        map(props =>
+                            props.filter(x => x.property[keyProperty].search(new RegExp(filter[keyProperty], 'i')) > -1)
+                        )
                     );
                 }
             };
             const filterNumeric = keyProperty => {
                 if (filter[keyProperty]) {
-                    propsFiltered = propsFiltered.map(props =>
-                        props.filter(x => x.property[keyProperty] >= filter[keyProperty])
+                    propsFiltered = propsFiltered.pipe(
+                        map(props =>
+                            props.filter(x => x.property[keyProperty] >= filter[keyProperty])
+                        )
                     );
                 }
             };
@@ -50,7 +54,10 @@ export class PropertyDataService {
     }
 
     findProperty(id: Number): Observable < RootObject > {
-        return this.getDatas()
-            .mergeMap(x => x.filter(root => root.property.id === id));
+        let datas = this.getDatas();
+debugger
+        return datas.pipe(
+            mergeMap(x => x.filter(root => root.property.id === id))
+        );
     }
 }
