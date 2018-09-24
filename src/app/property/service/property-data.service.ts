@@ -14,14 +14,15 @@ export class PropertyDataService {
     constructor(private http: HttpClient) {}
 
     getDatas(topRow: number = 0, filter: Property = null): Observable < RootObject[] > {
-        const getDatas$ = this.http.get <  RootObject[] > ('/properties');
+        let getDatas$ = this.http.get < any > ('/properties');
+        getDatas$ = getDatas$.pipe(map(x => x.default));
+
         let propsFiltered = getDatas$;
 
         if (topRow > 0) {
             propsFiltered = getDatas$.pipe(
-                map((array: RootObject[]) => {
-                    return array.slice(0, topRow);
-                }));
+                map((properties) => properties.slice(0, topRow))
+            );
         }
 
         if (filter && Object.keys(filter).length > 0) {
@@ -30,7 +31,7 @@ export class PropertyDataService {
             const filterString = keyProperty => {
                 if (filter[keyProperty]) {
                     propsFiltered = propsFiltered.pipe(
-                        map(props =>
+                        map((props: RootObject[]) =>
                             props.filter(x => x.property[keyProperty].search(new RegExp(filter[keyProperty], 'i')) > -1)
                         )
                     );
@@ -39,7 +40,7 @@ export class PropertyDataService {
             const filterNumeric = keyProperty => {
                 if (filter[keyProperty]) {
                     propsFiltered = propsFiltered.pipe(
-                        map(props =>
+                        map((props: RootObject[]) =>
                             props.filter(x => x.property[keyProperty] >= filter[keyProperty])
                         )
                     );
@@ -55,9 +56,8 @@ export class PropertyDataService {
 
     findProperty(id: Number): Observable < RootObject > {
         let datas = this.getDatas();
-debugger
         return datas.pipe(
-            mergeMap(x => x.filter(root => root.property.id === id))
+            mergeMap((x: RootObject[]) => x.filter(root => root.property.id === id))
         );
     }
 }
