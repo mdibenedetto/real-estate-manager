@@ -1,6 +1,6 @@
 {
     "name": "rem",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "scripts": {
         "ng": "ng",
         "start": "ng serve --open",
@@ -14,7 +14,7 @@
         "start-2": "webpack-dev-server --port=4200 --config webpack.config-dev.js",
         "pree2e": "webdriver-manager update --standalone false --gecko false --quiet",
         "gh-install": "npm i -g gh-pages",
-        "gh-build": "ng build --output-path=dist/gh-deploy --env=ghp --prod --base-href \"https://michele2014.github.io/real-estate-manager/\"",
+        "gh-build": "ng build --output-path=dist/gh-deploy --configuration=ghp --prod --base-href \"https://michele2014.github.io/real-estate-manager/\"",
         "gh-deploy": "gh-pages -d dist/gh-deploy",
         "gh-b-d": "npm run gh-build && npm run gh-deploy",
         "util-ncu-install-tool": "npm i -g npm-check-updates",
@@ -51,6 +51,7 @@
         "@types/node": "~8.9.4",
         "angular-in-memory-web-api": "github:angular/in-memory-web-api",
         "codelyzer": "~4.5.0",
+        "gh-pages": "^2.0.1",
         "jasmine-core": "~2.99.1",
         "jasmine-spec-reporter": "~4.2.1",
         "karma": "~4.0.0",

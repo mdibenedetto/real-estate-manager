@@ -1,5 +1,7 @@
 # Real estate manager
 
+# NB: THIS INFORMATION ARE OUTDATED
+
 Test link: https://michele2014.github.io/real-estate-manager/
 
 This project show how to implement a simple Routing with lazyload.
