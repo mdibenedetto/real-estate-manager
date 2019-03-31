@@ -1,11 +1,11 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
+/dist/*
 /dist-server
+!dist/gh-deploy
 /tmp
 /out-tsc
-
 # dependencies
 /node_modules
 
