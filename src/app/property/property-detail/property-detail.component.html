@@ -1,0 +1,83 @@
+<div class="card-header mb-2">
+    <div class="container">
+        <div class="row">
+            <div class="sm">
+                <a class="btn btn-secondary" queryParamsHandling="preserve" [routerLink]="['/search']">
+                <i class="fa fa-chevron-left"></i> Back
+              </a>
+            </div>
+            <div class="sm ml-2">
+                <h4 class="card-title">Property details</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="card-block col-md-6 pl-0">
+            <div class="card mb-2">
+                <div class="card-body">
+                    <h5 class="card-title">Address</h5>
+                    <p class="card-text">{{property.address}}</p>
+                    <p class="card-text">{{property.zipCode}}</p>
+                </div>
+            </div>
+
+            <div class="card container mb-2">
+                <div class="row">
+                    <div class="card-body">
+                        <h5 class="card-title">Beds</h5>
+                        <p class="card-text">{{property.beds}}</p>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Price</h5>
+                        <p class="card-text">£{{property.price}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Estate Agent</h5>
+                    <p class="card-text">{{property.estateAgent}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-block col-md-6 border rounded">
+            <div id="slider">
+                <figure>
+                    <img class="card-img-center" *ngFor="let img of property.images" [src]="img" alt="Card image cap">
+                </figure>
+                <div class="card-body">
+                    <h5 class="card-text font-weight-bold text-danger"
+                     *ngIf="property.images.length==0">This property does not have images available</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mt-2">
+    <div class="card-body">
+        <h5 class="card-title">Description</h5>
+        <p class="card-text">{{property.description}}</p>
+    </div>
+</div>
+
+<div class="card mt-2">
+    <div class="card-body">
+        <h5 class="card-title">Description</h5>
+        <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="15">
+            <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+        </agm-map>
+    </div>
+</div>
+
+<div class="card-footer">
+    <a class="btn btn-secondary" queryParamsHandling="preserve" [routerLink]="['/search']">
+            <i class="fa fa-chevron-left"></i> Back
+          </a>
+</div>
+<!-- class="card-link" -->
