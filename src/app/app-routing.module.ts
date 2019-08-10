@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core/src/metadata/directives';
+import { CommonModule } from '@angular/common'; 
 
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
