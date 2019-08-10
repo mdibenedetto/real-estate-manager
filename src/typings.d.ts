@@ -6,5 +6,7 @@ interface NodeModule {
 
 declare module "*.json" {
   const value: any;
+  export const version: any;
+
   export default value;
 }

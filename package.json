@@ -1,6 +1,6 @@
 {
-    "name": "rem",
-    "version": "0.0.1",
+    "name": "real-estate-manager",
+    "version": "0.0.2",
     "scripts": {
         "ng": "ng",
         "start": "ng serve --open",

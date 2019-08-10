@@ -5,6 +5,8 @@
  import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
  import { AppComponent } from './app.component';
+ import { DevHeaderComponent } from './common/components/dev-header.component'
+
  import { AppRoutingModule } from '../app/app-routing.module';
  import { PropertyModule } from './property/property.module';
  import { BaseUrlInterceptor } from './common/interceptors/base-url.interceptor';
@@ -17,11 +19,12 @@
      console.log('Use hash strategy!')
      provideLocationStrategy = [];
  }
- console.log(`it is running in environment "${ environment.envName}"`)
+ console.log(`it is running in environment "${environment.envName}"`)
 
  @NgModule({
      declarations: [
-         AppComponent
+         AppComponent,
+         DevHeaderComponent
      ],
      imports: [
          BrowserModule,
