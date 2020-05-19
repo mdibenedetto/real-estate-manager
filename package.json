@@ -8,9 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "git-build-docs": "ng build --prod --output-path docs --base-href real-estate-manager",
-    "git-create-404":"cp ./docs/index.html ./docs/404.html",
-    "git-pages-build":"npm run git-build-docs && npm run git-create-404"
+    "git-build-deploy": "ng build --prod --output-path deploy --base-href /real-estate-manager/deploy",
+    "git-create-404":"cp ./deploy/index.html ./deploy/404.html",
+    "git-pages-build":"npm run git-build-deploy && npm run git-create-404"
   },
   "private": true,
   "dependencies": {
