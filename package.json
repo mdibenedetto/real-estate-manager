@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "gh-pre-build": "ng build --prod --output-path deploy --base-href \"/real-estate-manager/\"",
+    "gh-pre-build": "ng build --configuration=ghp --prod --output-path deploy --base-href \"/real-estate-manager/\"",
     "gh-post-build": "cp ./deploy/index.html ./deploy/404.html",
     "gh-build": "npm run gh-pre-build && npm run gh-post-build",
     "gh-deploy": "gh-pages -d deploy"
