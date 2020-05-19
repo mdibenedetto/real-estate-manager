@@ -1,6 +1,7 @@
 # RealEstateManager
  
-[Link app](/real-estate-manager/#/search) 
+
+[Link app](https://mdibenedetto.github.io/real-estate-manager) 
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
