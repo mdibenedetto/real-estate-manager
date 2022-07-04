@@ -1,0 +1,46 @@
+<form>
+  <div class="row">
+    <div class="form-group">
+      <label>Address</label>
+      <input
+        class="form-control"
+        type="text"
+        name="address"
+        [(ngModel)]="filter.address"
+        [ngClass]="{ 'border-info': filter.address }"
+      />
+    </div>
+  </div>
+  <div class="row">
+    <div class="form-group col-4">
+      <label>Zipcode</label>
+      <input
+        class="form-control"
+        type="text"
+        name="zipCode"
+        [(ngModel)]="filter.zipCode"
+        [ngClass]="{ 'border-info': filter.zipCode }"
+      />
+    </div>
+    <div class="form-group col-4">
+      <label>Beds (>={{ filter.beds }}) </label>
+      <input
+        class="form-control text-right"
+        type="number"
+        name="beds"
+        [(ngModel)]="filter.beds"
+        [ngClass]="{ 'border-info': filter.beds > 0 }"
+      />
+    </div>
+    <div class="form-group col-4">
+      <label>Price (>={{ filter.price }})</label>
+      <input
+        class="form-control text-right"
+        type="number"
+        name="price"
+        [(ngModel)]="filter.price"
+        [ngClass]="{ 'border-info': filter.price > 0 }"
+      />
+    </div>
+  </div>
+</form>

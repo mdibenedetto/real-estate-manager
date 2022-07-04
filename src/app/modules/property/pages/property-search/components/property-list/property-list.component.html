@@ -1,0 +1,31 @@
+<div class="table">
+  <div class="row header">
+    <div class="cell">Address</div>
+    <div class="cell">Zipcode</div>
+    <div class="cell text-right">Beds</div>
+    <div class="cell text-right">Price &pound;</div>
+    <div class="cell">Type</div>
+    <div class="cell">Availability</div>
+  </div>
+
+  <div class="row" *ngFor="let prop of properties">
+    <div class="cell" data-title="Address">
+      <a [routerLink]="['/', prop.id, 'detail']">{{ prop.address }}</a>
+    </div>
+    <div class="cell" data-title="Zipcode">
+      {{ prop.zipCode }}
+    </div>
+    <div class="cell text-right" data-title="Beds">
+      {{ prop.beds }}
+    </div>
+    <div class="cell text-right" data-title="Price">
+      {{ prop.price }} &pound;
+    </div>
+    <div class="cell" data-title="Type">
+      {{ prop.propertyInfo.metaType }}
+    </div>
+    <div class="cell" data-title="Availability">
+      {{ prop.propertyInfo.availability }}
+    </div>
+  </div>
+</div>

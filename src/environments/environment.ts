@@ -2,13 +2,15 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-import { version, dependencies } from '../../package.json';
+// import { version, dependencies } from '../../package.json';
+import * as pkg from '../../package.json';
 
 export const environment = {
-    production: false,
-    envName: 'dev',
-    VERSION: version,
-    AngularCore: dependencies["@angular/core"]
+  production: false,
+  envName: 'dev',
+  useHash: false,
+  VERSION: pkg?.version,
+  AngularCore: pkg?.dependencies["@angular/core"]
 };
 
 /*

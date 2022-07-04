@@ -1,0 +1,22 @@
+<div class="d-flex align-items-center gap-2">
+  <div>
+    <button (click)="search()" class="btn btn-success">Search</button>
+  </div>
+  <div>
+    <button
+      (click)="toggleFilter()"
+      class="btn"
+      [ngClass]="{
+        'btn-danger': hasFilter,
+        'btn-success': !hasFilter
+      }"
+    >
+      Show filter
+    </button>
+  </div>
+  <div>
+    <strong>
+      {{ totalsMessage }}
+    </strong>
+  </div>
+</div>

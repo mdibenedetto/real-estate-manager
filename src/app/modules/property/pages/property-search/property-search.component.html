@@ -1,0 +1,32 @@
+<style>
+  /* .row {
+    background: #ff00004f !important;
+  } */
+</style>
+
+<div class="border pt-2 pb-2">
+  <header class="container border-bottom pt-2 pb-2">
+    <property-tool-bar
+      [hasFilter]="hasFilter()"
+      totalsMessage="{{ totalsMessage }}"
+      (onShowFilter)="showFilter = !showFilter"
+      (onSearch)="search()"
+    ></property-tool-bar>
+  </header>
+
+  <main class="">
+    <section *ngIf="showFilter" class="container pt-2 pb-2">
+      <property-filter></property-filter>
+    </section>
+
+    <section class="container pt-2 pb-2">
+      <property-list [properties]="properties"></property-list>
+    </section>
+  </main>
+
+  <footer class="container border-top pt-2 pb-2">
+    <strong>
+      {{ totalsMessage }}
+    </strong>
+  </footer>
+</div>
