@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-property-detail',
+  selector: 'property-detail',
   templateUrl: './property-detail.component.html',
   styleUrls: ['./property-detail.component.css']
 })
